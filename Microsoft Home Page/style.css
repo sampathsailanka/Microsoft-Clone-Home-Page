@@ -582,6 +582,16 @@ ul {
     .main-nav .right-menu {
         margin-left: -20px;
     }
+    
+    .main-nav .right-menu a {
+        font-size: 0;
+        color: transparent;
+    }
+
+    .main-nav .right-menu a > .fas {
+        color: black;
+        font-size: small;
+    }
 
     .showcase {
         box-sizing: border-box;
